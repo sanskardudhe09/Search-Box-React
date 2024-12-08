@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: linear-gradient(to right,  #bbdcf5, #abccee);
+}
+.app-container{
+  max-width: 70vw;
+  background-color: rgb(191, 249, 249);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1{
+  color: #333;
+}
+@media (max-width: 768px){
+  .app-container{
+    margin-bottom: 50px;
+  }
+}
